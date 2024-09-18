@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Bento grid</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap">
+
+  <style>
+  
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'DM Sans';
+  background-color: rgb(230, 230, 230);
+}
+    .quadrado1 {
+      width: 500px;
+      height: 500px;
+      padding: 20px;
+      background-color: rgb(112, 84, 255);
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-top: 50px;
+      font-weight: bold;
+    }
+    
+    .span1 {
+      font-size: 70px;
+      color: white;
+      margin-top: 50px;
+    }
+    
+    .span2 {
+      color: yellow;
+    }
+    
+    #star {
+      width: 150px;
+      margin-top: 40px;
+      margin-left: 170px;
+    }
+    
+    .span3 {
+      color: white;
+      font-size: 20px;
+    }
+    
+    .quadrado2 {
+      margin-top: 30px;
+      width: 500px;
+      height: 200px;
+      background-color: white;
+      font-size: 35px;
+      border-radius: 20px;
+      padding: 20px;
+    }
+    
+    #social {
+      width: 500px;
+    }
+    
+    .span4 {
+      font-weight: bold;
+    }
+    
+    .quadrado3 {
+      margin-top: 30px;
+      width: 500px;
+      height: 350px;
+      background-color: rgb(204, 204, 0);
+      font-size: 35px;
+      border-radius: 20px;
+      padding: 20px;
+    }
+    
+    .span5 {
+      font-weight: bold;
+    }
+    
+    .image {
+      margin-top: 20px;
+      height: 250px;
+    }
+    
+    .quadrado4 {
+      width: 500px;
+      height: 1000px;
+      margin-top: 30px;
+      background-color: rgb(204, 153, 255);
+      font-size: 30px;
+      border-radius: 20px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .span6 {
+      font-weight: bold;
+    }
+    
+    #grafic {
+      width: 500px;
+      height: 600px;
+      margin-top: 20px;
+    }
+    
+    .span7 {
+      margin-top: 20px;
+      font-size: 40px;
+    }
+    
+    .quadrado5 {
+      width: 500px;
+      height: 700px;
+      background-color: rgb(112, 84, 255);
+      font-size: 45px;
+      border-radius: 20px;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      color: white;
+      font-weight: bold;
+      margin-top: 30px;
+      text-align: center;
+    }
+    
+    .seguidores {
+      width: 400px;
+      margin-left: 65px;
+    }
+    
+    .quadrado6 {
+      width: 500px;
+      height: 300px;
+      margin-top: 20px;
+      background-color: white;
+      font-size: 20px;
+      padding: 20px;
+      border-radius: 20px;
+    }
+    
+    .span8 {
+      font-size: 55px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    
+    .audience {
+      margin-top: 20px;
+      width: 300px;
+    }
+    
+    .quadrado7 {
+      width: 500px;
+      height: 430px;
+      background-color: rgb(255, 224, 189);
+      padding: 20px;
+      font-size: 40px;
+      border-radius: 20px;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+    
+    .span8 {
+      font-size: 40px;
+      color: purple;
+    }
+  
+  .postar {
+    margin-left: 20px;
+  }
+  
+  .quadrado8 {
+    width: 500px;
+    height: 800px;
+    background-color: rgb(255, 204, 102);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 45px;
+    font-weight: bold;
+  }
+  
+  .ia {
+    margin-top: 20px;
+  }
+  </style>
+</head>
+<body>
+  <div class="quadrado1">
+  <span class="span1">Social Media
+  <br>
+  <span class="span2">10x</span> <i>Faster</i> 
+  <br>
+  with AI</span>
+  <img src="illustration-five-stars.webp" alt="estrelas" id="star">
+  <span class="span3">Over 4,000 5-star reviews</span>
+</div>
+  <div class="quadrado2">
+    <img src="illustration-multiple-platforms.webp" alt="redes" id="social">
+    <span class="span4">Manage multiple accounts and platforms.</span>
+    </div>
+    
+  <div class="quadrado3">
+  <span class="span5">Maintain a consistent posting schedule.</span>
+  <img src="illustration-consistent-schedule.webp" alt="imagem" class="image">
+    </div>
+    
+    <div class="quadrado4">
+  <span class="span6">Schedule to social media.</span>
+  <img src="illustration-schedule-posts.webp" alt="grafico" id="grafic">
+  <span class="span7">Optimize post timings to publish content at the perfect time for your audience. </span>
+  </div>
+  
+  <div class="quadrado5">
+    <img src="illustration-grow-followers.webp" alt="followers" class="seguidores">Grow followers with non-stop content.
+  </div>
+  <div class="quadrado6">
+  <span class="span8">>56%</span>
+  <br>
+  faster audience growth
+  <img src="illustration-audience-growth.webp" alt="audiencia" class="audience">
+  </div>
+  
+  <div class="quadrado7">
+  Create and schedule content <span class="span8"><i>quicker.</i></span>
+  <img src="illustration-create-post.webp" alr="post" class="postar">
+</div>
+
+ <div class="quadrado8"> 
+ Write your content using AI.
+ <img src="illustration-ai-content.webp" alt="ai" class="ia">
+ </div>
+ 
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Alison de Lima</a>.
+  </div>
+</body>
+</html>
